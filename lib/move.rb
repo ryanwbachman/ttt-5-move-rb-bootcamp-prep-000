@@ -8,5 +8,6 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(n)
-  n-1
+  n.to_i-1
 end
+
