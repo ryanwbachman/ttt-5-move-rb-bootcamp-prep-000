@@ -6,7 +6,6 @@ require_relative '../lib/move.rb'
 board = [" "," "," "," "," "," "," "," "," "]
 puts "Welcome to Tic Tac Toe!"
 puts "Please select a square to make your mark in by entering a number 1-9:"
-position = gets.strip
-position = input_to_index(position)
+position = input_to_index(gets.strip)
 move(board, position)
 display_board(board)
