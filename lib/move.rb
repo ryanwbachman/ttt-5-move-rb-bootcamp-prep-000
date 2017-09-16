@@ -11,6 +11,6 @@ def input_to_index(n)
   n.to_i-1
 end
 
-def move(board, position, XO="X")
-  board[position] = XO
+def move(board, position, symbol="X")
+  board[position] = symbol
 end
